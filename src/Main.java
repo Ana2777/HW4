@@ -15,8 +15,9 @@ public class Main {
         System.out.println(" ");
 // Задание 2
         int friday = 5;
-        for (; friday >= 31; friday = friday + 7); {
-            friday = friday + 7;
+        int plusDays = 7;
+        for (int c = 5; friday > 31; friday = friday + plusDays ); {
+            friday = friday + plusDays;
             System.out.println("Сегодня пятница " + friday + " Нужно сделать отчет!");
         }
 
