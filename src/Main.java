@@ -15,12 +15,9 @@ public class Main {
         System.out.println(" ");
 // Задание 2
         int friday = 5;
-        int plusDays = 7;
-        for (int c = 5; friday > 31; friday = friday + plusDays ); {
-            friday = friday + plusDays;
+        for (; friday <= 31; friday += 7) {
             System.out.println("Сегодня пятница " + friday + " Нужно сделать отчет!");
         }
-
 // Задание 3
         int startYear = 1822;
         int lastYear = 2122;
