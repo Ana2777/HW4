@@ -12,7 +12,19 @@ public class Main {
             --b;
             System.out.print("" + b + " ");
         }
+        System.out.println(" ");
 // Задание 2
-
+        int friday = 5;
+        for (; friday <= 31; friday += 7) {
+            System.out.println("Сегодня пятница " + friday + " Нужно сделать отчет!");
+        }
+// Задание 3
+        int startYear = 1822;
+        int lastYear = 2122;
+        for(a = startYear; a <= lastYear; ++a) {
+            if (a % 79 == 0) {
+                System.out.println(a);
+            }
+        }
     }
 }
